@@ -1,0 +1,140 @@
+.left_signup{
+    background-color:  #E5E5E5;
+    font-family: lato;
+    
+}
+
+.right_signup{
+    background-color: #5622A7;
+}
+.basic_property{
+    height: 1024px;
+    width: 649px;
+}
+.icon_design{
+    height:28.62px;
+    width: 28.14px;
+    margin-top: 65px;
+    margin-left: 128px;
+    float: left;
+    /* background-color: red; */
+}
+
+
+/* margin left 128 px */
+.ml128{
+    margin-left: 128px;
+}
+
+/* app name design */
+.app_name{
+    /* background-color: rebeccapurple; */
+    margin-left: 180.62px;
+    margin-top: 65.14px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29.35px;
+    color:  #5622A7;
+}
+
+/* sign up design here */
+.sign_up{
+    font: lato;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 97.86px;
+    margin-left: 128px;
+    
+}
+
+/* mutet text design  */
+.text-muted{
+    width: 343px;
+    height: 48px;
+    color:#969696;
+}
+
+
+/* Sign up form design  */
+.sign_up_form{
+    font: lato;
+}
+
+.input_form{
+    width: 393px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #5622A7;
+    margin-bottom: 36px;
+    margin-top: 18px;
+    padding: 20px 11px;
+
+}
+/* horizon bar design */
+.horizon_bar{
+    margin-bottom: 38px;
+}
+
+/* check box design */
+.ckbox{
+    float: left;
+}
+
+/* term and condition check text decoration */
+.term_condition_text{
+    width: 327px;
+    height:28;
+    font: lato;
+    margin-left: 156px;
+    size: 12px;
+    line-height: 14.4px;
+    color: #876DB5;
+    margin-bottom: 29px;
+    /* background-color: red; */
+
+    
+}
+
+/* creeate account  button design  */
+.btn-design{
+    width:393px;
+    height: 44px;
+    text-align: center;
+    background-color: #876DB5;
+    color:white ;
+    font: lato;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.sign_in_information{
+    height: 14px;
+    width: 327px;
+    margin-left:161px ;
+    color:#969696;
+    size:12px;
+    line-height:14.4px;
+    font-family: lato;
+    margin-top: 21px;
+    text-align: center;
+}
+
+.left_signup a{
+    color: #876DB5;
+}
+/* 
+/////////////////////////////////////////////
+left signup design is end here
+///////////////////////////////////////////// */
+
+.grid1{
+    margin-top:95px ;
+    margin-left:492px ;
+    margin-right: 154px;
+    height: 206px;
+    width:189px ;
+}
