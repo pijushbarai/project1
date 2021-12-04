@@ -1,16 +1,21 @@
 .left_signup{
-    background-color:  #E5E5E5;
-    font-family: lato;
+    background-color:  #ffffff;
+    /* font-family: lato; */
+    font-family: Lato, Helvetica, sans-serif;
+    max-width: 45.06%;
+    /* max-height: 100%; */
     
 }
 
 .right_signup{
     background-color: #5622A7;
+    max-width: 54.93%;
+    /* max-height: 100%; */
 }
-.basic_property{
+/* .basic_property{
     height: 1024px;
     width: 649px;
-}
+} */
 .icon_design{
     height:28.62px;
     width: 28.14px;
@@ -36,6 +41,7 @@
     font-size: 25px;
     line-height: 29.35px;
     color:  #5622A7;
+
 }
 
 /* sign up design here */
