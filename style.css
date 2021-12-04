@@ -19,8 +19,8 @@
 .icon_design{
     height:28.62px;
     width: 28.14px;
-    margin-top: 65px;
-    margin-left: 128px;
+    margin-top: 65.14px;
+    margin-left: 19.72265023%;
     float: left;
     /* background-color: red; */
 }
@@ -28,13 +28,13 @@
 
 /* margin left 128 px */
 .ml128{
-    margin-left: 128px;
+    margin-left: 19.72265023%;
 }
 
 /* app name design */
 .app_name{
     /* background-color: rebeccapurple; */
-    margin-left: 180.62px;
+    margin-left: 27.8%;
     margin-top: 65.14px;
     font-family: Raleway;
     font-weight: 700;
@@ -51,14 +51,13 @@
     font-size: 40px;
     line-height: 48px;
     margin-top: 97.86px;
-    margin-left: 128px;
-    
+    margin-left: 19.72265023%;    
 }
 
 /* mutet text design  */
 .text-muted{
-    width: 343px;
-    height: 48px;
+    width: 52.850539%;
+    height: auto;
     color:#969696;
 }
 
@@ -69,13 +68,15 @@
 }
 
 .input_form{
-    width: 393px;
+    width: 75%;
+    /* width: 343px; */
     height: 44px;
     border-radius: 10px;
     border: 1px solid #5622A7;
     margin-bottom: 36px;
     margin-top: 18px;
     padding: 20px 11px;
+    margin-right: 24.49922%;
 
 }
 /* horizon bar design */
@@ -90,10 +91,11 @@
 
 /* term and condition check text decoration */
 .term_condition_text{
-    width: 327px;
-    height:28;
+    width: 50.3852080%;
+    height:auto;
     font: lato;
-    margin-left: 156px;
+    /* margin-left: 156px; */
+    margin-left: 24.03697997%;
     size: 12px;
     line-height: 14.4px;
     color: #876DB5;
@@ -105,8 +107,9 @@
 
 /* creeate account  button design  */
 .btn-design{
-    width:393px;
-    height: 44px;
+    /* width:393px; */
+    width: 60.554699%;
+    height: auto;
     text-align: center;
     background-color: #876DB5;
     color:white ;
@@ -118,9 +121,11 @@
 }
 
 .sign_in_information{
-    height: 14px;
-    width: 327px;
-    margin-left:161px ;
+    height:auto;
+    /* width: 327px; */
+    width : 50.3852080%;
+    /* margin-left:161px ; */
+    margin-left: 24.80739599%;
     color:#969696;
     size:12px;
     line-height:14.4px;
@@ -139,16 +144,24 @@ left signup design is end here
 
 .grid1{
     margin-top:95px ;
-    margin-left:492px ;
-    margin-right: 154px;
-    height: 206px;
-    width:189px ;
+    /* margin-left:492px ; */
+    margin-left:62.19974716%;
+    /* margin-right: 154px; */
+    /* height: 206px; */
+    height: auto;
+    /* width:189px ; */
+    width: 23.8938053%;
+    /* display: block;
+    float :right; */
 }
 .grid2{
-    width: 189px;
-    height: 206px;
-    margin-left: 160px;
     margin-top: 118px;
+    /* width: 189px; */
+    width: 23.8938053%;
+    /* height: 206px; */
+    height: auto;
+    /* margin-left: 160px; */
+    margin-left: 20.22756005%;
 }
 
 .right_text{
@@ -156,7 +169,9 @@ left signup design is end here
     margin-bottom: 20px;
     /* text-align: center; */
     color:#FFFFFF;
-    /* justify-content: center; */
+    justify-content: center;
+    /* background-color: black; */
+    text-align: center;
 }
 .right_text h5{
     font-family: lato;
@@ -165,22 +180,25 @@ left signup design is end here
     line-height: 24px;
     font-weight: 700;
     margin-bottom: 16px;
-    margin-left: 316px;
+    /* margin-left: 316px; */
+    height: auto;
 }
 .right_text p{
     font-family: roboto;
     font-weight: 300;
     font-size: 18px;
     line-height: 21.09px;
-    width: 308px;
-    height: 42px;
-    margin-left: 242px;
-    margin-right: 241px;
-    text-align: center;
+    /* width: 308px; */
+    height: auto;
+    /* margin-left: 242px; */
+    /* margin-right: 241px; */
+    /* text-align: center; */
 }
 
 .underline_dots{
     width: 70px;
     height: 7px;
-    margin-left: 361px;
+    /* margin-left: 361px; */
+    margin-left: 45.63843236%;
+    margin-right: 45.51201011%;
 }
