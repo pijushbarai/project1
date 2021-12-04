@@ -138,3 +138,43 @@ left signup design is end here
     height: 206px;
     width:189px ;
 }
+.grid2{
+    width: 189px;
+    height: 206px;
+    margin-left: 160px;
+    margin-top: 118px;
+}
+
+.right_text{
+    margin-top: 69px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    color:#FFFFFF;
+    /* justify-content: center; */
+}
+.right_text h5{
+    font-family: lato;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-left: 316px;
+}
+.right_text p{
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.09px;
+    width: 308px;
+    height: 42px;
+    margin-left: 242px;
+    margin-right: 241px;
+    text-align: center;
+}
+
+.underline_dots{
+    width: 70px;
+    height: 7px;
+    margin-left: 361px;
+}
