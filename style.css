@@ -41,6 +41,8 @@
     font-size: 25px;
     line-height: 29.35px;
     color:  #5622A7;
+    /* position: absolute; */
+    /* background-color: aqua; */
 
 }
 
@@ -201,4 +203,23 @@ left signup design is end here
     /* margin-left: 361px; */
     margin-left: 45.63843236%;
     margin-right: 45.51201011%;
+}
+
+/* 
+/////////////////////////////////////
+Log in     log in       log in  :start
+////////////////////////////////////// */
+
+.login{
+    font-family: lato;
+    max-width: 45.06%;
+    /* padding-top: 64.5px; */
+    /* background-color: #FFFFFF; */
+    background-color: #E6DF9A;
+    /* position: relative; */
+}
+.appname{
+    background-color: blueviolet;
+    display: inline;
+    margin-left: 20px;
 }
