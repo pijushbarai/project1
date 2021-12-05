@@ -48,7 +48,7 @@
 
 /* sign up design here */
 .sign_up{
-    font: lato;
+    font-family: Lato, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -211,15 +211,64 @@ Log in     log in       log in  :start
 ////////////////////////////////////// */
 
 .login{
-    font-family: lato;
-    max-width: 45.06%;
-    /* padding-top: 64.5px; */
-    /* background-color: #FFFFFF; */
-    background-color: #E6DF9A;
-    /* position: relative; */
+    display: block;
+    max-width: 45%;
+    max-height: 1024px;
+    /* background-color:aliceblue ; */
+    font-family: Lato, Helvetica, sans-serif;
+    /* text-align: center; */
 }
-.appname{
-    background-color: blueviolet;
-    display: inline;
+.appname p{
+    /* background-color: aqua; */
     margin-left: 20px;
+    margin-top: 65.14px;
+    display: inline-block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29.35px;
+    color:  #5622A7;
 }
+
+.login_text{
+    margin-top: 129.86px;
+}
+.fotter_part{
+   display: inline;
+   text-align: center;
+   justify-content: center;
+}
+.fotter_part a{
+    text-decoration: none;
+    color: #5622A7;
+}
+.forget_password{
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    /* background-color: chartreuse; */
+
+}
+.forget_pass{
+    text-decoration: none;
+    color: #5622A7;
+    
+}
+
+.login_btn{
+    /* width:393px; */
+    width: 60.554699%;
+    height: auto;
+    text-align: center;
+    background-color: #876DB5;
+    color:white ;
+    font: lato;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+

@@ -29,7 +29,7 @@
                         <input class="input_form" type="text" id="name" name="name" placeholder="Full-name"><br>
                         <label for="e-mail">Your e-mail</label><br>
                         <input class="input_form" type="text" id="e-mail" name="e-mail" placeholder="name@example.com"><br>
-                        <label for="password">Password</label><br>
+                        <label for="password" id="passid">Password</label><br>
                         <input class="input_form" style = "margin-bottom: 18px;"type="password" id = "password" name = "password" placeholder="At least 8 characters">
                         
                       </form>
@@ -51,7 +51,7 @@
                   <!-- button start here -->
                   <button class="btn-design ml128">Create account</button>
                 <!-- button end here -->
-                <p class="sign_in_information">Already have an account?<a style="text-decoration: none;" href="">Login</a></p>
+                <p class="sign_in_information">Already have an account?<a style="text-decoration: none;" href="" id = "loginbtn">Login</a></p>
             </div>
 
             
@@ -86,19 +86,19 @@
         <!-- ///////////////////// -->
 
 
-        <div class="login" id = "log_in_page">
+        <div class="login" id = "log_in_page" style="display: none;">
           <div class="logo">
             <img src="image/logo.svg" alt="icon" class = "icon_design">
           </div>
           <div class="appname">
-            <p style="font-family: raleway;">lenden.</p>
+            <p style="font-family: raleway;" id ="name">lenden.</p>
           </div>
           
 
-          <p class = "sign_up">Log in.</p>
-          <p>Login with your data that you entered during regestration</p>
+          <p class = "sign_up login_text">Log in.</p>
+          <p class = "text-muted ml128">Login with your data that you entered during regestration</p>
 
-          <div class="log_in_form">
+          <div class="log_in_form ml128">
             <div class="email_input">              
               <label for="e-mail">Your e-mail</label><br>
               <input class="input_form" type="text" id="e-mail" name="e-mail" placeholder="name@example.com"><br>
@@ -122,11 +122,16 @@
            <p class = "term_condition_text text-muted">Keep me logged in </p>
            
            <!-- button start here -->
-           <button class="btn-design ml128">Log in</button>
+           <button class="login_btn ml128">Log in</button>
            <!-- button end here -->
+          <div class="fotter_part">
+            <p>Dont have an account?<a href="">Sign up</a></p>
+          </div>
+          <div class="forget_password">
+            <a href="" class = "forget_pass">Forget password?</a>
 
-           <p>Dont have an account?<a href="">Sign up</a></p>
-           <a href="">Forget password?</a>
+          </div>
+           
         </div>
 
     </div>
