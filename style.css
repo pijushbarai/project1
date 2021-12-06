@@ -83,9 +83,43 @@
 
 }
 /* horizon bar design */
-.horizon_bar{
-    margin-bottom: 38px;
+.main{
+    width: 100%;
+    background-color: none;
+    height: 12px;
+    padding-top: 12px;
+    padding-bottom: 1px;
 }
+
+
+.d1{
+    background-color: #C4C4C4;
+    width: 64px;
+    height: 4px;
+    float: left;
+    margin-right: 9px;
+    border-radius: 2px;
+
+}
+.dm{
+    background-color: #C4C4C4;
+    width: 64px;   
+    height: 4px;
+    float: left;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-radius: 2px;
+}
+.dl{
+    background-color: #C4C4C4;
+    width: 64px;
+    min-height: 4px;
+    float:left;
+    margin-left: 9px;
+    border-radius: 2px;
+
+}
+/* bar design end */
 
 /* check box design */
 .ckbox{
@@ -232,7 +266,6 @@ carosel design starts here
     height:8px !important;
     width: 8px !important;
     margin-right: 14px !important;
-    margin-top: ;
     margin: 0px;
     border-radius: 50%;
 }
