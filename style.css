@@ -17,6 +17,9 @@
     height: 1024px;
     width: 649px;
 } */
+.row{
+    display: flex;
+}
 .icon_design{
     height:28.62px;
     width: 28.14px;
@@ -283,7 +286,7 @@ Log in     log in       log in  :start
 
 .login{
     display: block;
-    max-width: 45%;
+    /* max-width: 45%; */
     max-height: 1024px;
     /* background-color:aliceblue ; */
     font-family: Lato, Helvetica, sans-serif;
@@ -342,4 +345,5 @@ Log in     log in       log in  :start
     margin-bottom: 20px;
 
 }
+
 
