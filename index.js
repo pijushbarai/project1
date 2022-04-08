@@ -8,7 +8,7 @@
     
 // });
 
-
+/*
 const loginHtml = `
 <div class="login" id="log_in_page">
 <div class="logo">
@@ -52,7 +52,7 @@ const loginHtml = `
   <p>Dont have an account?<a href="" id="signUpBtn" >Sign up</a></p>
 </div>
 <div class="forget_password">
-  <a href="" class="forget_pass" id="forgetPasswordBtn" >Forget password?</a>
+  <p class="forget_pass" id="forgetPasswordBtn" >Forget password?</p>
 </div>
 `;
 
@@ -109,18 +109,34 @@ document.getElementById('loginbtn').addEventListener("click", (e) => {
     // console.log('click')
 })
 
-document.getElementById("signUpBtn").addEventListener("click",(f) => {
-  f.preventDefault();
-  alert("HI");
-})
+const sBtn = document.getElementById("signUpBtn");
+
+if(sBtn) {
+  sBtn.addEventListener("click",(f) => {
+    f.preventDefault();
+    alert("HI");
+  })
+}
+
 
 document.getElementById("createAccountBtn").addEventListener("click", () =>{
   alert("Account created");
 })
 
-document.getElementById("forgetPasswordBtn").addEventListener("click", ()=>{
-  alert("forget password");
-})
+const forgetBtn = document.getElementById("forgetPasswordBtn");
+console.log(forgetBtn)
+
+if(forgetBtn) {
+  forgetBtn.addEventListener("click", ()=>{
+    console.log("forget password");
+  })
+
+}
 document.getElementById("logInBtn").addEventListener("click", ()=>{
   alert("Hi login button");
-})
+})*/
+
+document.getElementById("loginbtn").addEventListener("click", ()=> {
+  //alert("hi pijush ");
+  document.getElementById("xxx").style.backgroundColor = "red";
+} );
